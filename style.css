@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(25%);
+    background:#111;
+}
+input{
+    background:rgba(100,0,255,50);
+}
+button{
+    background:transparent;
+    border:0;
+    outline:0;
+    color:rgba(255,163,26,50);
+    font-weight: 600;
+    width:100px;
+    cursor:pointer;
+}
+button:hover{
+    font-weight: 600;
+    transform: scale(1.08);
+    transition:all 0.3s;
+}
