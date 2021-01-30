@@ -22,11 +22,6 @@ function setup(){
 }
 // Drawing
 function draw(){
-    /* CHAOTIC MAPS = chaotique = فوضوية
-    In mathematics, a chaotic map is a map (= evolution function) that exhibits some sort of chaotic behavior. 
-    Maps may be parameterized by a discrete-time or a continuous-time parameter. Discrete maps usually take
-    the form of iterated functions. Chaotic maps often occur in the study of dynamical systems.
-    */
     //Xn+1 = sin(ayn)-cos(bxn)
     //Yn+1= sin(cxn)- cos(dyn)
     for (var i=0; i<1000; i++){
